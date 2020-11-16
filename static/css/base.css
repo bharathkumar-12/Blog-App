@@ -1,7 +1,11 @@
 
     body {
     font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgb(218, 60, 12) !important;
     }
     a:link{
         text-decoration: none;
+    }
+    .container{
+        background-color: rgb(218, 60, 12) !important;
     }
