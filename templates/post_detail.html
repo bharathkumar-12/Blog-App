@@ -3,16 +3,27 @@
 
 {% block content %}
 
-<div class="post-entry">
-    <h2>
-     {{ post.title }}
-    </h2>
-    <p>
-        {{ post.body }}
-    </p>
-</div>
-   
-<a href="{% url 'post_edit' post.pk %}" >+ Edit Blog Post</a>
-<a href="{% url 'post_delete' post.pk %}" class="btn btn-danger" >Delete Blog Post</a>
+<div class="row contentfont">
+    <a href="{% url 'post_detail' post.pk %}"><div class="col-10 p-3">
+      <div class="card shadow p-2 mb-1 bg-white rounded">
+            <div class="card-header">
+                <h5><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h5>
+            </div>
+            <div class="card-body">
+              <h7 class="card-title">Blog Post : <b>{{ post.id }}</b></h7>
+              <p class="text-black-80">{{ post.body }}</p> 
+            </div>
+            <div class="row p-4">
+                
+                <div class="col-4"><a href="{% url 'post_edit' post.pk %}" class="btn btn-primary">Edit Post</a></div>
+                <div class="col-4"><a href="{% url 'post_delete' post.pk %}" class="btn btn-danger">Delete Post</a></div>
+                
+            </div>
+          </div>
+     </div></a>
+
+ </div>
+
+
 {% endblock content %}
     

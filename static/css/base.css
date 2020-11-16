@@ -1,11 +1,33 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
     body {
-    font-family: 'IBM Plex Sans', sans-serif;
-    background-color: rgb(218, 60, 12) !important;
+    background-color: rgb(252, 253, 253) !important;
+    font-family: 'Cinzel', serif;
     }
     a:link{
         text-decoration: none;
     }
     .container{
-        background-color: rgb(218, 60, 12) !important;
+        border-radius: 5px;
+        background: rgb(253,128,168);
+        background: linear-gradient(90deg, rgba(253,128,168,1) 0%, rgba(252,206,66,1) 100%); 
     }
+    .contentfont{
+        font-family: 'Cardo', serif;
+    }
+    a {
+         color: rgb(245, 243, 243);
+      }
+    .card-header{
+        background: rgb(1,72,113);
+        background: linear-gradient(90deg, rgba(1,72,113,1) 0%, rgba(215,237,226,1) 100%); 
+    }  
+    .card{
+        
+    }
+    .text-dark
+        {
+            font-family: 'Quattrocento', serif;
+            font-size: large;    
+         }
+    
+    
