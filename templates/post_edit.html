@@ -12,15 +12,18 @@
             </div>
             <div class="card-body form-group contentfont">
                 
-                        <form action="" method="POST">
+                <form action="" method="POST">
                             {% csrf_token %}
                     <div class="row justify-content-center form-group">
                         {{ form.as_p }}
                     </div>
-                    <div class="row justify-content-center">
-                    <input type="submit" value="Update" class="btn btn-primary justify-content-center">
+                    
+                    <div class="row d-flex justify-content-center ">
+                        <div class="col-6 d-flex justify-content-center"><input type="submit" value="Update" class="btn btn-primary justify-content-center"></div>
+                        <div class="col-6 d-flex justify-content-center"><button class="btn btn-danger"><a href="{% url 'post_detail' post.pk %}">Cancel</a></button></div>
                     </div>
-                        </form>
+                    
+                </form>
                
             </div>
         </div>

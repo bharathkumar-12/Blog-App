@@ -18,9 +18,10 @@
                         <p class="text"><h7 class="text-danger">Are you sure want to delete this post ???</h7></p>
                     </div>
                     <div class="row d-flex justify-content-center ">
-
-                        <div class="col-6 d-flex justify-content-center"><input type="submit" value="Confirm" class="btn btn-danger"></div>
-                        <div class="col-6 d-flex justify-content-center"><button class="btn btn-primary"><a href="{% url 'post_detail' post.pk %}">Cancel</a></button></div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <input type="submit" value="Confirm" class="btn btn-danger"></div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <button class="btn btn-primary"><a href="{% url 'post_detail' post.pk %}">Cancel</a></button></div>
                     </div>
                 </form>
             </div>
