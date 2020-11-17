@@ -3,12 +3,32 @@
 
 {% block content %}
 
-<h1>edit post</h1>
-<form action="" method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Update">
-</form>
-    
+   
+<div class="row">
+    <div class="col-12 p-3">
+        <div class="card shadow p-4 mb-1 bg-white rounded">
+            <div class="card-header">
+                <h5 style="color: whitesmoke;">Edit Your Blog</h5>
+            </div>
+            <div class="card-body form-group contentfont">
+                
+                        <form action="" method="POST">
+                            {% csrf_token %}
+                    <div class="row justify-content-center form-group">
+                        {{ form.as_p }}
+                    </div>
+                    <div class="row justify-content-center">
+                    <input type="submit" value="Update" class="btn btn-primary justify-content-center">
+                    </div>
+                        </form>
+               
+            </div>
+        </div>
+    </div>
+    <div class="col-4 p-3">
+
+    </div>
+ </div>
+
 {% endblock content %}
     

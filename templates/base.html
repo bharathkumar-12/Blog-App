@@ -16,38 +16,43 @@
    </head>
 <body class="body">
     <div class="container">
-        <div class="row shadow d-block p-2 bg-gradient-light text-white">
-            <div class="col">
+        <div class="row shadow d-block p-2 bg-gradient-light text-white d-flex justify-content-center">
+            <div class="col d-flex justify-content-center">
                 <ul class="nav">
                     <li class="nav-item">
                       <a class="nav-link text-white" href="{% url 'home' %}"><h1 class="display-2">Django Blog</h1></a>
                     </li>
                 </ul>
-            </div>
-            <div class="col">
-                <ul class="nav justify-content-end"> 
-                    <li class="nav-item content-end">
-                        <a class="nav-link text-dark" href="{% url 'home' %}">Home</a>
+            </div> </div> 
+            <div class="row d-block p-2 headergradient text-white d-flex justify-content-center">
+            <div class="col d-flex justify-content-center">
+                <ul class="nav justify-content-center"> 
+                    <li class="nav-item content-start">
+                        <a class="nav-link text-white" href="{% url 'home' %}">Home</a>
                       </li>
-                    <li class="nav-item content-end">
-                      <a class="nav-link text-dark" href="{% url 'post_new' %}">+ New Blog Post</a>
+                    <li class="nav-item content-start">
+                      <a class="nav-link text-white" href="{% url 'post_new' %}">+ New Blog Post</a>
                     </li>
                
     
     {% if user.is_authenticated %}
         
         <li class="nav-item content-end">
-            <a class="nav-link text-dark" >Hello {{ user.username }}</a>
+            <a class="nav-link text-white"> {{ user.username }} </a>
           </li>
         <!-- <p><a href="{% url 'logout' %}">Logout</a></p> -->
         <li class="nav-item content-end">
-            <a class="nav-link text-dark" href="{% url 'logout' %}">Logout</a>
+            <a class="nav-link text-white" href="{% url 'logout' %}">Logout</a>
           </li>
     {% else %}
-        <p>you are not logged in </p>
+    <li class="nav-item content-end">
+      <a class="nav-link text-white">
+        you are not logged in >>>  </a>
+    </li>
+        
         <!-- <a href="{% url 'login' %}">Login Now</a> -->
         <li class="nav-item content-end">
-            <a class="nav-link text-dark" href="{% url 'login' %}">Login</a>
+            <a class="nav-link text-white" href="{% url 'login' %}">Login</a>
           </li>
     {% endif %}
 </ul>

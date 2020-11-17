@@ -1,16 +1,33 @@
 {% extends 'base.html' %}
 
 {% block content %}
+  
+<div class="row">
+    <div class="col-12 p-3">
+        <div class="card shadow p-4 mb-1 bg-white rounded">
+            <div class="card-header">
+                <h5 style="color: whitesmoke;">Delete Your Post</h5>
+            </div>
+            <div class="card-body contentfont">
+                <form action="" method="POST">
+                            {% csrf_token %}
+                    <div class="row justify-content-center ">
+                        <p class="text"><h4 class="text-success">{{ post.title }}</h4></p>
+                    </div>
+                    <div class="row justify-content-center ">
+                        <p class="text"><h7 class="text-danger">Are you sure want to delete this post ???</h7></p>
+                    </div>
+                    <div class="row d-flex justify-content-center ">
 
-<h1>delete Blog Post</h1>
-<form action="" method="POST">
-    {% csrf_token %}
-   <p>are you sure want to delete post ???"" </p>
-   <p>the Post Title you are going to delete </p>
-   <p class="text display-4">{{ post.title }}</p>
-   
-   <input type="submit" value="confirm" class="btn btn-danger">
-</form>
-    
+                        <div class="col-6 d-flex justify-content-center"><input type="submit" value="Confirm" class="btn btn-danger"></div>
+                        <div class="col-6 d-flex justify-content-center"><button class="btn btn-primary"><a href="{% url 'post_detail' post.pk %}">Cancel</a></button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
 {% endblock content %}
     

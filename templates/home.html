@@ -6,10 +6,10 @@
 
  {% for post in object_list %}
  <div class="row contentfont">
-    <a href="{% url 'post_detail' post.pk %}"><div class="col-10 p-3">
+    <a href="{% url 'post_detail' post.pk %}"><div class="col-12 p-3">
       <div class="card shadow p-2 mb-1 bg-white rounded">
             <div class="card-header">
-                <h5><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h5>
+                <h4><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h4>
             </div>
             <div class="card-body">
               <h7 class="card-title">Blog Post : <b>{{ post.id }}</b></h7>

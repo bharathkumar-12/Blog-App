@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+/* font-family: 'Cardo', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap');
+/* font-family: 'Eczar', serif; */
     body {
     background-color: rgb(252, 253, 253) !important;
     font-family: 'Cinzel', serif;
@@ -12,7 +15,7 @@
         background: linear-gradient(90deg, rgba(253,128,168,1) 0%, rgba(252,206,66,1) 100%); 
     }
     .contentfont{
-        font-family: 'Cardo', serif;
+        font-family: 'Eczar', serif;
     }
     a {
          color: rgb(245, 243, 243);
@@ -24,10 +27,22 @@
     .card{
         
     }
-    .text-dark
-        {
-            font-family: 'Quattrocento', serif;
-            font-size: large;    
-         }
     
+    a:hover{
+    color: rgb(249, 251, 252);
+    }
+
+    h3,h4 {
+        font-family: 'Cinzel', serif;
+    }
+    .headergradient{
+        background: #000428;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
+
+
+
     
