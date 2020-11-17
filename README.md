@@ -21,19 +21,10 @@ whitenoise = "==4.1.4"
 python_version = "3.8"
 
 
-[url=https://postimg.cc/PPgtwbSd][img]https://i.postimg.cc/PPgtwbSd/1-IYj-HGCg4y.jpg[/img][/url]
+<a href="https://postimg.cc/PPgtwbSd" target="_blank"><img src="https://i.postimg.cc/PPgtwbSd/1-IYj-HGCg4y.jpg" alt="1-IYj-HGCg4y"/></a><br/><br/>
+<a href="https://postimg.cc/1n3PQv3r" target="_blank"><img src="https://i.postimg.cc/1n3PQv3r/firefox-4f-Xk-F28e-Uf.jpg" alt="firefox-4f-Xk-F28e-Uf"/></a><br/><br/>
+<a href="https://postimg.cc/jCCK339s" target="_blank"><img src="https://i.postimg.cc/jCCK339s/firefox-ayyd6z-Da-SZ.jpg" alt="firefox-ayyd6z-Da-SZ"/></a><br/><br/>
+<a href="https://postimg.cc/DS17dWNL" target="_blank"><img src="https://i.postimg.cc/DS17dWNL/firefox-ox-E35-CTb-XA.jpg" alt="firefox-ox-E35-CTb-XA"/></a><br/><br/>
+<a href="https://postimg.cc/K3K2K4LK" target="_blank"><img src="https://i.postimg.cc/K3K2K4LK/ph2q-Yzzs-Nr.jpg" alt="ph2q-Yzzs-Nr"/></a><br/><br/>
+<a href="https://postimg.cc/mzp427cf" target="_blank"><img src="https://i.postimg.cc/mzp427cf/ry-USH2-P0e2.jpg" alt="ry-USH2-P0e2"/></a><br/><br/>
 
-
-[url=https://postimg.cc/1n3PQv3r][img]https://i.postimg.cc/1n3PQv3r/firefox-4f-Xk-F28e-Uf.jpg[/img][/url]
-
-
-[url=https://postimg.cc/jCCK339s][img]https://i.postimg.cc/jCCK339s/firefox-ayyd6z-Da-SZ.jpg[/img][/url]
-
-
-[url=https://postimg.cc/DS17dWNL][img]https://i.postimg.cc/DS17dWNL/firefox-ox-E35-CTb-XA.jpg[/img][/url]
-
-
-[url=https://postimg.cc/K3K2K4LK][img]https://i.postimg.cc/K3K2K4LK/ph2q-Yzzs-Nr.jpg[/img][/url]
-
-
-[url=https://postimg.cc/mzp427cf][img]https://i.postimg.cc/mzp427cf/ry-USH2-P0e2.jpg[/img][/url]
