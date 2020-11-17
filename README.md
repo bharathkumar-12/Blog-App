@@ -5,10 +5,10 @@ You can visit the link to directly check the hosted blog on heroku :
 https://techteamup-blog.herokuapp.com/
 
 the login information
-username : 1
-password : 1
+username : admin
+password : Badcat121@
 
-blog frontend created with bootstrap
+Blog frontend created with bootstrap
 
 [packages]
 django = "==3.0"
