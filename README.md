@@ -3,14 +3,13 @@
 Blog Application is a Python Blog App for Creating and Viewing posts.This is blog created by Django framework with simple blog functionality and some example content.
 
 ## Installation
-```
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Blog-App.
-[packages]
-django = "==3.0"
-gunicorn = "==19.9.0"
-whitenoise = "==4.1.4"
+```python
+**Packages**
+django = "== 3.0"
+gunicorn = "== 19.9.0"
+whitenoise = "== 4.1.4"
 
-[requires]
+**Python**
 python_version = "3.8"
 ```
 
@@ -18,10 +17,10 @@ python_version = "3.8"
 https://techteamup-blog.herokuapp.com/
 
 ## Usage
-```
+```python
 # Login information 
-username : admin
-password : Badcat121@
+Username : admin
+Password : Badcat121@
 ```
 ## ScreenShots 
 
